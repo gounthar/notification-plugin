@@ -1,0 +1,36 @@
+diff --git a/pom.xml b/pom.xml
+index a001d20..86c9577 100755
+--- a/pom.xml
++++ b/pom.xml
+@@ -6,7 +6,7 @@
+ 	<parent>
+ 		<groupId>org.jenkins-ci.plugins</groupId>
+ 		<artifactId>plugin</artifactId>
+-		<version>4.40</version>
++		<version>4.51</version>
+ 		<relativePath />
+ 	</parent>
+ 
+@@ -21,7 +21,7 @@
+ 	<properties>
+ 		<revision>1.18</revision>
+ 		<changelist>-SNAPSHOT</changelist>
+-		<jenkins.version>2.289.3</jenkins.version>
++		<jenkins.version>2.346.3</jenkins.version>
+ 		<gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
+ 	</properties>
+ 
+@@ -126,13 +126,11 @@
+ 		<dependency>
+ 			<groupId>org.mockito</groupId>
+ 			<artifactId>mockito-core</artifactId>
+-			<version>4.8.0</version>
+ 			<scope>test</scope>
+ 		</dependency>
+ 		<dependency>
+ 			<groupId>org.mockito</groupId>
+ 			<artifactId>mockito-inline</artifactId>
+-			<version>4.8.0</version>
+ 			<scope>test</scope>
+ 		</dependency>
+ 	</dependencies>
